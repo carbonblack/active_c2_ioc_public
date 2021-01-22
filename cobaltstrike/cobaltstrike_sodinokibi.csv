@@ -1,0 +1,31 @@
+c2_ip	first_seen	last_seen	protocol	port	version	watermark	pubkey_md5	domains	host_header
+195.2.93.160	2020/05/15 14:53:57	2020/07/09 03:58:52	DNS	53	4.0	452436291	30218be81ebea0dd73571cbfc96a6a27	droid.acquisitionism.com,/_/scs/mail-static/_/js/,www.acquisitionism.com,/_/scs/mail-static/_/js/,rasso.acquisitionism.com,/_/scs/mail-static/_/js/	None
+5.101.1.204	2020/04/04 02:44:41	2020/06/10 10:40:15	HTTPS	443	4.0	452436291	c23868957bcc2e525a8978cf91e99738	d2zblloliromfu.cloudfront.net,/view/	d2zblloliromfu.cloudfront.net
+89.163.213.231	2020/11/19 22:29:25	2020/11/19 22:29:25	HTTPS	443	4.0	452436291	756149cf1414e916ccde50eb04aa49d1	89.163.213.231,/_/scs/mail-static/_/js/	None
+46.166.161.38	2020/05/15 06:09:22	2020/05/15 06:09:22	DNS	53	4.0	452436291	3f44a05fb8f3d6265eed27c550d9aab3	ads.picstatistics.com,/dot.gif,settings.picstatistics.com,/IE9CompatViewList.xml	None
+195.2.92.206	2020/04/28 10:53:53	2020/04/28 10:53:53	HTTPS	443	4.0	452436291	7f27eaae61837cc0fab4b1bd6e5c16bb	blowoffaholic.com,/_/scs/mail-static/_/js/	None
+63.250.42.171	2020/03/16 21:15:46	2020/04/25 13:49:33	DNS	53	4.0	452436291	12029fa804fd369c966790b6264bdab8	dns.359office.com,/preload	onedrive.live.com
+162.244.35.215	2020/07/07 19:28:01	2020/09/19 11:56:53	SMB	4444	4.0	452436291	6864a7d21ce3d359300ded6532a1997a		None
+95.142.40.121	2020/08/01 10:01:01	2020/09/04 21:11:17	HTTPS	443	4.0	452436291	a48bbb07cf1efe99052b8a2e05ffd971	techniquesaholic.com,/_/scs/mail-static/_/js/	None
+195.2.93.160	2020/04/04 22:42:07	2020/09/03 06:03:28	HTTPS	443	4.0	452436291	30218be81ebea0dd73571cbfc96a6a27	195.2.93.160,/_/scs/mail-static/_/js/	None
+162.244.35.215	2020/07/09 03:58:52	2020/08/17 20:29:19	DNS	53	4.0	452436291	6864a7d21ce3d359300ded6532a1997a	aqua.texasheavyindustries.com,/regions,bk.texasheavyindustries.com,/team,auth.texasheavyindustries.com,/ros	texasheavyindustries.com
+102.129.224.148	2020/03/27 15:29:36	2020/09/27 18:24:17	HTTPS	443	4.0	452436291	6399f70b760d03d09b1f1269ceed71ff	cms.letzplayagame.com,/more	letzplayagame.com
+95.142.40.121	2020/08/29 10:13:32	2020/08/29 10:13:32	HTTP	80	4.0	452436291	a48bbb07cf1efe99052b8a2e05ffd971	techniquesaholic.com,/_/scs/mail-static/_/js/	None
+45.11.180.82	2020/05/31 00:38:10	2020/06/13 23:42:01	HTTPS	443	4.0	452436291	e22e8f1bd12faf9be2bca0878e8510f9	heaperformance.com,/_/scs/mail-static/_/js/	None
+46.166.161.38	2020/04/27 15:53:25	2020/05/04 10:00:38	HTTPS	443	4.0	452436291	3f44a05fb8f3d6265eed27c550d9aab3	46.166.161.38,/dpixel	None
+89.163.213.231	2020/11/23 09:05:37	2020/11/23 09:05:37	HTTP	80	4.0	452436291	756149cf1414e916ccde50eb04aa49d1	89.163.213.231,/_/scs/mail-static/_/js/	None
+185.163.45.249	2020/05/15 07:56:39	2020/05/19 03:54:33	DNS	53	4.0	452436291	4d84d38bb5ab25794a902e46f0140dc2	exchange.manominimum.com,/_/scs/mail-static/_/js/,load.manominimum.com,/_/scs/mail-static/_/js/,config.manominimum.com,/_/scs/mail-static/_/js/	None
+195.2.93.152	2020/04/04 11:22:41	2020/04/04 11:22:41	HTTPS	443	4.0	452436291	ac5a17c16b3df8ef399586809f77b038	peresist.com,/_/scs/mail-static/_/js/	None
+63.250.42.171	2020/04/04 10:32:59	2020/05/03 23:13:43	HTTPS	443	4.0	452436291	12029fa804fd369c966790b6264bdab8	63.250.42.171,/preload	onedrive.live.com
+188.225.36.175	2020/04/21 18:19:40	2020/04/21 18:19:40	HTTPS	443	4.0	452436291	2ea40d9751aff3c7b48866e3b843b427	188.225.36.175,/cx	None
+109.234.38.62	2020/03/27 16:18:49	2020/04/04 18:52:41	HTTPS	443	4.0	452436291	a1eff0e7ef7f7b2c1cc7f2ce689de7e7	realmlet.com,/_/scs/mail-static/_/js/	None
+63.250.42.172	2020/04/04 06:25:14	2020/04/29 09:20:37	HTTPS	443	4.0	452436291	12029fa804fd369c966790b6264bdab8	63.250.42.171,/preload	onedrive.live.com
+5.101.1.202	2020/04/03 18:24:18	2020/04/21 23:19:27	HTTPS	443	4.0	452436291	bd57ef947837a1944bda0eae682f3e74	cms.tanitakoo.com,/skip	tanitakoo.com
+162.244.35.215	2020/06/11 00:30:39	2020/09/05 20:44:23	HTTPS	443	4.0	452436291	6864a7d21ce3d359300ded6532a1997a	texasheavyindustries.com,/staff	texasheavyindustries.com
+5.101.0.202	2020/03/04 06:55:29	2020/04/21 01:00:12	HTTPS	443	4.0	452436291	bd57ef947837a1944bda0eae682f3e74	cms.tanitakoo.com,/skip	tanitakoo.com
+185.212.44.131	2020/06/02 02:18:26	2020/06/11 13:13:54	HTTPS	443	4.0	452436291	4e3b1a9e9b037d46e215597f2bacb14a	pimanufacture.com,/_/scs/mail-static/_/js/	None
+62.113.115.29	2020/07/09 03:58:52	2020/07/09 03:58:52	DNS	53	4.0	452436291	042106ba872d0d1d2671a764d68e84f7	secuirty.countrysidelong.com,/_/scs/mail-static/_/js/,help.countrysidelong.com,/_/scs/mail-static/_/js/,improve.countrysidelong.com,/_/scs/mail-static/_/js/	None
+188.120.248.114	2020/09/25 08:22:14	2020/11/21 11:14:21	HTTPS	443	4.0	452436291	a48bbb07cf1efe99052b8a2e05ffd971	188.120.248.114,/_/scs/mail-static/_/js/	None
+188.120.248.114	2020/10/27 06:35:03	2020/11/23 14:47:25	HTTP	80	4.0	452436291	a48bbb07cf1efe99052b8a2e05ffd971	188.120.248.114,/_/scs/mail-static/_/js/	None
+195.2.93.160	2020/06/23 08:49:39	2020/09/06 10:01:59	HTTP	8080	4.0	452436291	30218be81ebea0dd73571cbfc96a6a27	195.2.93.160,/_/scs/mail-static/_/js/	None
+5.101.0.204	2020/03/26 23:55:38	2020/06/11 09:41:13	HTTPS	443	4.0	452436291	c23868957bcc2e525a8978cf91e99738	d2zblloliromfu.cloudfront.net,/view/	d2zblloliromfu.cloudfront.net
