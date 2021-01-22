@@ -4,4 +4,4 @@
 
 * Note
 
-Be careful with the first_seen/last_seen dates for each entry.
+Be careful with the first_seen/last_seen dates in each entry.

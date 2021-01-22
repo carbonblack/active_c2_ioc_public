@@ -1,1 +1,19 @@
-test
+#+OPTIONS: ^:{}
+
+#+TITLE: Cobalt Strike team servers
+
+This is the appendix of the presentation at Japan Security Analyst Conference 2021.
+
+* team servers attributed to specific threat actors
+
+- cobaltstrike_sodinokibi.csv :: team servers attributed to the [[https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/sodinokibi-ransomware-cobalt-strike-pos][Sodinokibi]] ransomware actor
+- cobaltstrike_pyxie.csv :: team servers attributed to [[https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/][PyXie]]
+- cobaltstrike_luckymouse_ta428.csv :: team servers attributed to [[https://www.welivesecurity.com/2020/12/10/luckymouse-ta428-compromise-able-desktop/][LuckyMouse/TA428]]
+
+* team servers with leaked/cracked customer IDs (over 50% of the total)
+
+- 305419896
+- 1873433027
+- 16777216
+- 1359593325
+- 0 (cracked trial, see the slide no.46)
