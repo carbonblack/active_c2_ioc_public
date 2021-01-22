@@ -1,0 +1,7 @@
+#+OPTIONS: ^:{}
+
+#+TITLE: Active C2 IOCs
+
+* Note
+
+Be careful with the first_seen/last_seen dates for each entry.
