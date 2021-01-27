@@ -2,6 +2,6 @@
 
 #+TITLE: Active C2 IOCs
 
-* Note
+** Note
 
-Be careful with the first_seen/last_seen dates in each entry.
+Be careful with the first_seen/last_seen dates in each entry. Don't judge based on just an IP address.
