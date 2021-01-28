@@ -2,7 +2,7 @@
 
 #+TITLE: Cobalt Strike team servers in the wild
 
-This is the appendix of the presentation at Japan Security Analyst Conference 2021.
+This is the appendix of the [[https://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_201_haruyama_jp.pdf][presentation]] at Japan Security Analyst Conference 2021.
 The team servers were observed since Feb 2020 to Jan 2021.
 
 ** team servers attributed to specific threat actors
