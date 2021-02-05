@@ -20,3 +20,10 @@ The team servers were observed since Feb 2020 to Jan 2021.
 - 0 (cracked trial, see the slide no.46)
 
 If you know any other leaked/cracked ID, let me know ;-)
+
+** domain-fronted team servers
+
+- Microsoft Azure
+- Fastly
+
+I hope they will block it.
