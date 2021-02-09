@@ -1,0 +1,94 @@
+word PROTOCOL at 0x0: 8 (0x8) = HTTPS
+word PORT at 0x8: 443 (0x1bb)
+dword SLEEPTIME at 0x10: 14400000 (0xdbba00)
+dword MAXGET (chunk size) at 0x1a: 1049217 (0x100281)
+word JITTER at 0x24: 23 (0x17)
+word MAXDNS at 0x2c: 255 (0xff)
+buf PUBKEY (DER encoded) at 0x34: b"0\x81\x9f0\r\x06\t*\x86H\x86\xf7\r\x01\x01\x01\x05\x00\x03\x81\x8d\x000\x81\x89\x02\x81\x81\x00\xbfCB\xfa\r\xcb1\xea\x89h`\x83y\xed\xf8\xd7\xc2\x07|Y\xf6\xed\xf5a\x9b\xa7\xfb\xe6\x03\xd3\xa7q\x12<\xa1\xbc\x116F\xc4\x06\xf0\xc7\x93\xf5\xea\xce\xe3\x94='\xce\xe4gB\xb5,\xaa\x04\xd4\xe1\x16\xbc\x91\x0e\n[\x17/\x00\x0e4\x1d7WO\xd9\xbc\x9e\x13^\xf8\x08\x8c\xe6p\x0eF\x9c$\xb0\x966\x84\x84*i\x85\xbe\xf3\xe6\xec9\x99\x88\xd8\xe4$mr\xdd\xe6\xc6-\xc46\xe2+\xda\x14\xcc%\xfd\xdaB\xe3\xbc\xd9\x02\x03\x01\x00\x01"
+buf DOMAINS (C2 URLs) at 0x13a: infinitysoftwares.com,/files/information_055.pdf
+buf USERAGENT at 0x240: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36
+buf SUBMITURI (http-post.uri) at 0x2c6: /wp-admin/new_file.php
+buf C2_RECOVER (http-get.server.output) transform at 0x30c: 
+- PRINT (Send data as transaction body) at 0x312
+- APPEND at 0x316: size = 313 (0x139)
+- PREPEND at 0x31e: size = 324 (0x144)
+- MASK (XOR mask w/ random key) at 0x326
+buf C2_REQUEST (http-get.client) transform at 0x412: 
+- _HEADER at 0x418: b'Referer: https://twitter.com/'
+- _HOSTHEADER at 0x43d: b'Host: infinitysoftwares.com'
+- _HEADER at 0x460: b'Accept: */*'
+- _HEADER at 0x473: b'Accept-Language: en-US'
+- _HEADER at 0x491: b'Accept-Encoding: gzip, deflate'
+- _HEADER at 0x4b7: b'Connection: close'
+- BUILD at 0x4d0: 0 = metadata or id
+- BASE64 at 0x4d8
+- PREPEND at 0x4dc: b'PHPSESSID='
+- HEADER (Store data in an HTTP header) at 0x4ee: b'Cookie'
+buf C2_POSTREQ (http-post.client) transform at 0x518: 
+- _HOSTHEADER at 0x51e: b'Host: infinitysoftwares.com'
+- _HEADER at 0x541: b'Accept: */*'
+- _HEADER at 0x554: b'Accept-Language: en-US'
+- _HEADER at 0x572: b'Connection: close'
+- BUILD at 0x58b: 1 = output
+- MASK (XOR mask w/ random key) at 0x593
+- PREPEND at 0x597: b'name="uploaded_1";filename="33139.pdf"\nContent-Type: text/plain\n'
+- PRINT (Send data as transaction body) at 0x5df
+- BUILD at 0x5e3: 0 = metadata or id
+- BASE64URL (URL-safe Base64) at 0x5eb
+- PARAMETER (Store data in a URI parameter) at 0x5ef: b'r'
+buf dep_SPAWNTO at 0x61e: 
+buf SPAWNTO_X86 at 0x634: %windir%\syswow64\print.exe
+buf SPAWNTO_X64 at 0x67a: %windir%\sysnative\msiexec.exe
+buf PIPENAME at 0x6c0: 
+word CRYPTO_SCHEME (1 = disable encryption) at 0x746: 0 (0x0)
+dword DNS_IDLE at 0x74e: 3494108380 (0xd043dcdc)
+dword DNS_SLEEP at 0x758: 0 (0x0)
+buf C2_VERB_GET at 0x762: GET
+buf C2_VERB_POST at 0x778: POST
+dword C2_CHUNK_POST (96 = chunk output) at 0x78e: 0 (0x0)
+dword WATERMARK at 0x798: 943010104 (0x38353138)
+word CLEANUP (1 = free beacon stage memory after loading) at 0x7a2: 1 (0x1)
+word CFG_CAUTION (1 = enable process hollowing when loading beacon) at 0x7aa: 0 (0x0)
+buf HOST_HEADER at 0x7b2: 
+word HTTP_NO_COOKIES (flag to ignore the local cookie jar and use the specified value) at 0x838: 1 (0x1)
+word PROXY_BEHAVIOR at 0x840: 2 (0x2) = PROXY_PRECONFIG (auto)
+word EXIT_FUNK at 0x848: 0 (0x0)
+dword KILLDATE at 0x850: 0 (0x0)
+dword GARGLE_NOOK (!0 = obfuscate beacon in memory when sleeping) at 0x85a: 176608 (0x2b1e0)
+buf GARGLE_SECTIONS at 0x864: b'\x00\xc0\x02\x002\xbc\x03\x00\x00\xc0\x03\x00h\x85\x04\x00\x00\x90\x04\x00\xe0\xaf\x04\x00\x00\xb0\x04\x00T\xbf\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+word PROCINJ_PERMS_I (startrwx, initial memory permission) at 0x892: 4 (0x4)
+word PROCINJ_PERMS (userwx, final memory permission) at 0x89a: 32 (0x20)
+dword PROCINJ_MINALLOC at 0x8a2: 8493 (0x212d)
+buf PROCINJ_TRANSFORM_X86 at 0x8ac: 
+- prepend: b'\x90\x90'
+- append: b''
+buf PROCINJ_TRANSFORM_X64 at 0x9b2: 
+- prepend: b'\x0f\x1f\x00'
+- append: b''
+buf PROCINJ_STUB (MD5 of the jar path) at 0xab8: 5583fc99a88eada336c56347b6e1ced6
+buf PROCINJ_EXECUTE at 0xace: CreateThread with thread hollowing
+word PROCINJ_ALLOCATOR (0 = VirtualAllocEx, 1 = NtMapViewOfSection) at 0xb54: 1 (0x1)
+
+[33m[D][0m parsed config summary:
+{'CRYPTO_SCHEME': 0,
+ 'DOMAINS': 'infinitysoftwares.com,/files/information_055.pdf',
+ 'HOST_HEADER': 'infinitysoftwares.com',
+ 'PORT': 443,
+ 'PROCINJ_STUB': '5583fc99a88eada336c56347b6e1ced6',
+ 'PROTOCOL': 'HTTPS',
+ 'PUBKEY': b'0\x81\x9f0\r\x06\t*\x86H\x86\xf7\r\x01\x01\x01\x05\x00\x03\x81'
+           b'\x8d\x000\x81\x89\x02\x81\x81\x00\xbfCB\xfa\r\xcb1\xea\x89h`'
+           b'\x83y\xed\xf8\xd7\xc2\x07|Y\xf6\xed\xf5a\x9b\xa7\xfb'
+           b'\xe6\x03\xd3\xa7q\x12<\xa1\xbc\x116F\xc4\x06\xf0\xc7'
+           b"\x93\xf5\xea\xce\xe3\x94='\xce\xe4gB\xb5,\xaa\x04\xd4\xe1\x16\xbc"
+           b'\x91\x0e\n[\x17/\x00\x0e4\x1d7WO\xd9\xbc\x9e\x13^\xf8\x08'
+           b'\x8c\xe6p\x0eF\x9c$\xb0\x966\x84\x84*i\x85\xbe\xf3\xe6\xec9'
+           b'\x99\x88\xd8\xe4$mr\xdd\xe6\xc6-\xc46\xe2+\xda\x14\xcc%\xfd'
+           b'\xdaB\xe3\xbc\xd9\x02\x03\x01\x00\x01',
+ 'PUBKEY_MD5': '896f625fdc2abad797da11c466dd4173',
+ 'SLEEPTIME': 14400000,
+ 'SUBMITURI': '/wp-admin/new_file.php',
+ 'USERAGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+              '(KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+ 'WATERMARK': 943010104,
+ 'version': '4.0'}
