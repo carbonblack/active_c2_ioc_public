@@ -1,0 +1,13 @@
+#+OPTIONS: ^:{}
+
+#+TITLE: Winnti 4.0 C2 servers
+
+The blog post is here.
+
+** Reference
+
+- [[https://blogs.vmware.com/security/2019/09/cb-tau-threat-intelligence-notification-winnti-malware-4-0.html][CB TAU Threat Intelligence Notification: Winnti Malware 4.0]]
+- [[https://blogs.vmware.com/security/2020/02/threat-analysis-active-c2-discovery-using-protocol-emulation-part2-winnti-4-0.html][Threat Analysis: Active C2 Discovery Using Protocol Emulation Part2 (Winnti 4.0)]]
+
+
+
