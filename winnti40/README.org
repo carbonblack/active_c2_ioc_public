@@ -2,7 +2,7 @@
 
 #+TITLE: Winnti 4.0 C2 servers
 
-The blog post is here.
+The blog post is [[https://blogs.vmware.com/security/2021/11/monitoring-winnti-4-0-c2-servers-for-two-years.html][here]].
 
 ** Reference
 
