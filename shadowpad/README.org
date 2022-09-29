@@ -1,0 +1,10 @@
+#+OPTIONS: ^:{}
+
+#+TITLE: ShadowPad C2 servers
+
+ShadowPad C2 activities identified since Sep 2021
+
+** Reference
+
+- [[https://www.sentinelone.com/labs/shadowpad-a-masterpiece-of-privately-sold-malware-in-chinese-espionage/][ShadowPad | A Masterpiece of Privately Sold Malware in Chinese Espionage]]
+- [[https://st.drweb.com/static/new-www/news/2020/october/Study_of_the_ShadowPad_APT_backdoor_and_its_relation_to_PlugX_en.pdf][Study of the ShadowPad APT backdoor and its relation to PlugX]]
