@@ -1,4 +1,4 @@
-c2_ip	first_seen	last_seen	protocol	port
+c2_ip	first_seen	last_seen	protocol	port    variant
 103.151.229.35	2021/12/11	2021/12/19	HTTP	443	Variant2
 45.77.250.209	2021/11/09	2021/11/09	TCP	443	Variant1
 164.155.51.9	2022/06/22	2022/06/22	HTTP	80	Variant3
