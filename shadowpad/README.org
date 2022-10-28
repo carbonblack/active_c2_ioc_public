@@ -8,3 +8,4 @@ ShadowPad C2 activities identified since Sep 2021
 
 - [[https://www.sentinelone.com/labs/shadowpad-a-masterpiece-of-privately-sold-malware-in-chinese-espionage/][ShadowPad | A Masterpiece of Privately Sold Malware in Chinese Espionage]]
 - [[https://st.drweb.com/static/new-www/news/2020/october/Study_of_the_ShadowPad_APT_backdoor_and_its_relation_to_PlugX_en.pdf][Study of the ShadowPad APT backdoor and its relation to PlugX]]
+- [[https://blogs.vmware.com/security/2022/10/threat-analysis-active-c2-discovery-using-protocol-emulation-part3-shadowpad.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=threat-analysis-active-c2-discovery-using-protocol-emulation-part3-shadowpad][Threat Analysis: Active C2 Discovery Using Protocol Emulation Part3 (ShadowPad)]]
