@@ -1,0 +1,11 @@
+#+OPTIONS: ^:{}
+
+#+TITLE: Dacls (MATA) C2 servers
+
+Dacls (MATA) C2 activities identified since August 2020
+
+** Reference
+
+- [[https://blog.netlab.360.com/dacls-the-dual-platform-rat-en/][Dacls, the Dual platform RAT]]
+- [[https://securelist.com/mata-multi-platform-targeted-malware-framework/97746/][MATA: Multi-platform targeted malware framework]]
+- [[https://blogs.vmware.com/security/2022/11/threat-analysis-active-c2-discovery-using-protocol-emulation-part4-dacls-aka-mata.html][Threat Analysis: Active C2 Discovery Using Protocol Emulation Part4 (Dacls, aka MATA)]]
